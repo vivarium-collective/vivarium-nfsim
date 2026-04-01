@@ -9,6 +9,9 @@ setup(
     version='0.0.1',
     packages=[
         'vivarium_nfsim',
+        'vivarium_nfsim.processes',
+        'vivarium_nfsim.experiments',
+        'vivarium_nfsim.models',
     ],
     author='Eran Agmon',
     author_email='agmon.eran@gmail.com',
