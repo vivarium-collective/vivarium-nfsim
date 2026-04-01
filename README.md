@@ -70,4 +70,4 @@ python -m vivarium_nfsim.experiments.flagella_with_production
 python -m vivarium_nfsim.experiments.flagella_report
 ```
 
-See the **[full report](doc/flagella_report.html)** for detailed results, plots, and explanation of the modeling approach.
+See the **[full report](https://vivarium-collective.github.io/vivarium-nfsim/)** for detailed results, plots, and explanation of the modeling approach.

@@ -33,7 +33,7 @@ from vivarium_nfsim.models.generate_flagella_bngl import (
 
 DOC_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-    'doc')
+    'docs')
 
 
 def fig_to_base64(fig):
