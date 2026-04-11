@@ -106,13 +106,17 @@ Composed Workflow:
 
 The NFSimProcess uses a **bridge pattern**: each step reads current state, updates seed species in the BNGL template via regex substitution, runs NFSim in a temporary directory, and returns delta changes. "Seedable" observables (simple molecules) carry over between steps; growing intermediates with counter states do not.
 
-## Demo
+## Demo Report
+
+**[View the interactive report](https://vivarium-collective.github.io/pbg-nfsim/)**
+
+To regenerate locally:
 
 ```bash
 python demo/demo_report.py
 ```
 
-Generates `demo/report.html` with interactive Plotly charts showing three configurations:
+The report includes interactive Plotly charts showing three configurations:
 1. Standalone assembly (fixed monomer pool)
 2. Composed steady production + complexation
 3. Composed fast production (3x rate)
